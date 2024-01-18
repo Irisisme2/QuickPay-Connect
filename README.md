@@ -28,10 +28,3 @@ QuickPay Connect is a platform enabling fast and easy payments using the GHO tok
 
 - **ConnectKit in User Interface:** Use ConnectKit to create an attractive and intuitive user interface for your application, making it easy to use.
 
-## Additional Notes:
-
-To comply with the rule of using a ready-made template, start with a ready-made financial app template and customize it according to the mentioned functionalities.
-
-Provide comprehensive documentation and a demo video showing all added features and how the project meets the hackathon requirements.
-
-Focus on innovative solutions, such as interesting transaction signing methods, new use cases for the GHO token, or creative integrations with Chainlink CCIP.
