@@ -4,25 +4,25 @@ import Campaigns from './shared/Campaigns';
 import DoughnutChart from './shared/Doughnut';
 import RowCards from './shared/RowCards';
 import StatCards from './shared/StatCards';
-import StatCards2 from './shared/StatCards2';
+import AccountBalance from './shared/AccountBalance';
 import TopSellingTable from './shared/TopSellingTable';
 import UpgradeCard from './shared/UpgradeCard';
 
 const ContentBox = styled('div')(({ theme }) => ({
   margin: '30px',
-  [theme.breakpoints.down('sm')]: { margin: '16px' },
+  [theme.breakpoints.down('sm')]: { margin: '16px' }
 }));
 
 const Title = styled('span')(() => ({
   fontSize: '1rem',
   fontWeight: '500',
   marginRight: '.5rem',
-  textTransform: 'capitalize',
+  textTransform: 'capitalize'
 }));
 
 const SubTitle = styled('span')(({ theme }) => ({
   fontSize: '0.875rem',
-  color: theme.palette.text.secondary,
+  color: theme.palette.text.secondary
 }));
 
 const H4 = styled('h4')(({ theme }) => ({
@@ -30,7 +30,7 @@ const H4 = styled('h4')(({ theme }) => ({
   fontWeight: '500',
   marginBottom: '16px',
   textTransform: 'capitalize',
-  color: theme.palette.text.secondary,
+  color: theme.palette.text.secondary
 }));
 
 const Analytics = () => {
@@ -43,7 +43,7 @@ const Analytics = () => {
           <Grid item lg={8} md={8} sm={12} xs={12}>
             <StatCards />
             <TopSellingTable />
-            <StatCards2 />
+            <AccountBalance />
 
             <H4>Ongoing Projects</H4>
             <RowCards />
